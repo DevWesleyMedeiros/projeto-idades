@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idades</h1>
+    </header>
+    <section class="container">
+        <div id="cadastro">
+            <p><strong>ANO DE NASCIMENTO:</strong>
+                <input type="number" name="texto_ano_idade" id="texto_ano_idade">
+            </p>
+            <p>
+                <strong>SEXOS:</strong>
+                <input type="radio" name="radio_sexo" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radio_sexo" id="femenino">
+                <label for="femenino">Femenino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar idade" onclick="verificadora()">
+            </p>
+        </div>
+        <div id="resultado" class="Resultado">
+            
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Produzido por Wesley Medeiros da Rosa
+        </p>
+    </footer>
+</body>
+<script src="javascript.js"></script>
+</html>
